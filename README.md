@@ -1,6 +1,9 @@
 ## About this Fork
 
-This fork includes the changes needed to quantize Merge models (models made by merging others instead of finetuning).
+I have forked ExLLamaV2 to enable it to quantize LLM models that generates mathematical fringe situations in the 
+tensors outputs (like Inf or NaN). These situations should not happen but are usual in models created by the merge 
+of others. The changes I have included assures the mathematical stability of the inference in the quantization 
+process and therefore makes possible the Exl2 quantization for any model.
 
 # ExLlamaV2
 
