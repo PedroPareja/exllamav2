@@ -1,3 +1,8 @@
+### UPDATE
+These changes are already implemented in the main repo so this fork is no longer relevant.
+
+
+
 ## About this Fork
 
 I have forked ExLLamaV2 to enable it to quantize LLM models that generates mathematical fringe situations in the 
